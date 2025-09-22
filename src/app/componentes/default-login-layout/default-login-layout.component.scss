@@ -22,12 +22,20 @@ main {
         background-color: $gray-bg;
     }
 
+    #main-image{
+        height: 50%;
+    }
+
     .form-section {
         flex-grow: 0.3;
         padding: 0 35px;
 
         img {
             margin-bottom: 30px;
+        }
+
+        #logo{
+            width: 200px;
         }
 
         h2 {

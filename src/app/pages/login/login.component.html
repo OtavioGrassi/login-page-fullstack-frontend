@@ -4,7 +4,7 @@ primaryBtnText="Login Now"
 secondaryBtnText="Signup Now"
 (submit)="submit()"
 (navigate)="navigate()"
-[disablePrimaryBtn]="!loginForm.valid">
+[disabledPrimaryBtn]="!loginForm.valid">
 <form [formGroup]="loginForm">
     <app-primary-input
     formControlName="email"

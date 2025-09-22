@@ -1,13 +1,13 @@
 <main>
     <section class="form-section">
-        <img src="/assets/svg/logo.svg"/>
+        <img id="logo" src="/assets/svg/logo.svg"/>
        <h2>{{ title }}</h2>
        <ng-content></ng-content>
        <div class="btn-wrapper">
             <button 
                 class="btn-primary" 
                 (click)="submit()"
-                [disabled]="disablePrimaryBtn"
+                [disabled]="disabledPrimaryBtn"
             >
                 {{ primaryBtnText }}
             </button>
@@ -20,7 +20,7 @@
        </div>
     </section>
     <section class="main-section">
-        <h1>You Should, MoveIt!</h1>
-        <img src="/assets/svg/main-illustration.svg"/>
+        <h1>Move It Your Away!</h1>
+        <img id="main-image" src="/assets/svg/main-illustration.svg"/>
     </section>
 </main>
