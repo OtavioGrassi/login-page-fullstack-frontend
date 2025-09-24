@@ -1,27 +1,44 @@
-# LoginPageFrontend
+# Login Page - Frontend (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+Este é o repositório do **Frontend** da aplicação de Login com autenticação **Full Stack**. O projeto foi desenvolvido utilizando **Angular**, **TypeScript**, **HTML** e **SCSS**.
 
-## Development server
+## Funcionalidade
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+A aplicação permite que o usuário faça login utilizando autenticação com **JWT**. O frontend se comunica com o backend para validar o login e fornecer um token JWT, que será usado para autenticação nas próximas requisições.
 
-## Code scaffolding
+## Pré-requisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Antes de rodar a aplicação, certifique-se de ter as seguintes ferramentas instaladas:
 
-## Build
+- **Node.js** (versão 14 ou superior) - [Download Node.js](https://nodejs.org/)
+- **Angular CLI** - Instale com o comando `npm install -g @angular/cli`
+- **Git** - [Baixar Git](https://git-scm.com/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Clonando o repositório
 
-## Running unit tests
+Primeiro, clone este repositório para a sua máquina local:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+git clone https://github.com/OtavioGrassi/login-page-fullstack-frontend.git
+cd login-page-fullstack-frontend
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Instalação
 
-## Further help
+Após clonar o repositório, instale as dependências do projeto:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+npm install
+
+## Execução
+
+Para rodar a aplicação localmente, execute o comando:
+
+npm start
+
+A aplicação estará disponível em http://localhost:4200
+
+## Testes de Backend
+
+O Frontend foi projetado para interagir com o backend via endpoints REST. Para que a aplicação funcione corretamente, é necessário rodar o backend.
+
+Veja o repositório do Backend: https://github.com/OtavioGrassi/login-page-fullstack-backend
+para as instruções de configuração e execução do backend.
