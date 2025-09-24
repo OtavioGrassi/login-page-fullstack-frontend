@@ -1,6 +1,6 @@
 # Login Page - Frontend (Angular)
 
-## Imagem da aplicação:
+## Imagens da aplicação:
 
 <img width="1920" height="919" alt="FireShot Capture 008 - LoginPageFrontend -  login-page-frontend-otaviograssi netlify app" src="https://github.com/user-attachments/assets/7bf83728-b789-4633-a860-c1a278502605" />
 <img width="1920" height="919" alt="FireShot Capture 006 - LoginPageFrontend -  localhost" src="https://github.com/user-attachments/assets/8a8ce195-19c0-4da5-b3b3-05ef1e930e47" />
