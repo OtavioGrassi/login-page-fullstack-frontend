@@ -34,7 +34,7 @@ export class SignUpComponent {
     private router: Router,
     private loginService: LoginService,
     private toastService: ToastrService
-  ){
+  ) {
     this.signupForm = new FormGroup({
       name: new FormControl('', [Validators.required, Validators.minLength(3)]),
       email: new FormControl('', [Validators.required, Validators.email]),
@@ -43,14 +43,14 @@ export class SignUpComponent {
     })
   }
 
-  submit(){
-    this.loginService.login(this.signupForm.value.email, this.signupForm.value.password).subscribe({
+  submit() {
+    this.loginService.signup(this.signupForm.value.name, this.signupForm.value.email, this.signupForm.value.password).subscribe({
       next: () => this.toastService.success("Login feito com sucesso!"),
       error: () => this.toastService.error("Erro inesperado! Tente novamente mais tarde")
     })
   }
 
-  navigate(){
+  navigate() {
     this.router.navigate(["login"])
   }
 }
